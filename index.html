@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./output.css" />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.min.css" /> -->
+  </head>
+  <body>
+    <nav class="bg-white border-gray-200 px-2 sm:h-10">
+      <div
+        class="container mx-auto flex flex-wrap items-center justify-between"
+      >
+        <a href="#" class="flex">
+          <img
+            class="h-10 mr-3"
+            width="51"
+            height="70"
+            viewBox="0 0 51 70"
+            fill="none"
+            src="img/icon.png"
+          />
+          <span class="self-center text-lg font-semibold whitespace-nowrap"
+            >Jaimik Chauhan</span
+          >
+        </a>
+        <button
+          data-collapse-toggle="m-menu"
+          type="button"
+          class="md:hidden ml-3 text-gray-400 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-300 rounded-lg inline-flex items-center justify-center"
+          aria-controls="mobile-menu-2"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Open main menu</span>
+          <svg
+            class="w-6 h-6"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+          <svg
+            class="hidden w-6 h-6"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </button>
+        <div class="hidden md:block w-full md:w-auto" id="m-menu">
+          <ul
+            class="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-medium"
+          >
+            <li>
+              <a
+                href="#intro"
+                class="bg-blue-700 md:bg-transparent text-white sm:text-lg block pl-3 pr-4 py-2 md:text-blue-700 md:p-0 rounded"
+                aria-current="page"
+              >
+                Intro</a
+              >
+            </li>
+            <li>
+              <a
+                href="#resume"
+                class="text-gray-700 hover:bg-gray-50 text-lg border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-blue-700 md:p-0"
+                >Resume</a
+              >
+            </li>
+            <li>
+              <a
+                href="#about"
+                class="text-gray-700 hover:bg-gray-50 text-lg border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-blue-700 md:p-0"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#contact"
+                class="text-gray-700 hover:bg-gray-50 text-lg border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-blue-700 md:p-0"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <!-- Image and Short Intro -->
+      <div
+        class="justify-center grid bg-gray-600 space-x-0 space-y-5 p-10 sm:flex sm:space-x-12 sm:h-96 sm:space-y-24"
+      >
+        <img
+          src="img/passport size image.jpeg"
+          alt=""
+          class="rounded-full grid-rows-1"
+        />
+        <span class="text-white grid-rows-2 text-center">
+          <p class="font-bold font-serif text-xl mb-4 sm:text-3xl">
+            I'm Jaimik
+          </p>
+          <div class="text-sm sm:text-xl">
+            <p>Software Developer</p>
+            <p>Computer Science Student</p>
+            <p>BTech, ITNU</p>
+          </div>
+        </span>
+      </div>
+      <!-- Intro -->
+      <div
+        class="bg-gray-600 text-sm text-center flex p-14 text-white sm:text-xl sm:px-96"
+        id="intro"
+      >
+        <span>
+          <p>I am a self-taught developer.</p>
+          <p>
+            I have a passion for learning new technologies and solving problems.
+          </p>
+          <p>Expertise in LAMP Stack Development.</p>
+          <p>Learning MERN Stack Development.</p>
+        </span>
+      </div>
+
+      <!-- #resume -->
+      <div class="bg-blue-400 h-48 text-center" id="resume">
+        <span class="block pb-8 font-thin pt-10 sm:font-medium sm:text-xl"
+          >Know More About My Technical Skills</span
+        >
+        <a
+          href="res/20BCE503_Jaimik Chauhan.pdf"
+          class="rounded-full border-gray-700 border-2 px-10 py-2 bg-blue-500 hover:border-white hover:bg-blue-800 hover:text-gray-700"
+        >
+          Download Resume</a
+        >
+      </div>
+      <!-- About -->
+      <div
+        class="bg-cyan-800 grid grid-rows-2 sm:flex sm:justify-between text-white"
+        id="about"
+      >
+        <!-- Education -->
+        <div class="grid-rows-1">
+          <h2 class="pt-4 text-center font-bold text-3xl">Education</h2>
+          <h3 class="font-serif text-center text-xl font-light mb-4">
+            What I've Learned
+          </h3>
+
+          <div class="my-8 ml-2">
+            <h2 class="font-bold text-xl">2017-2020</h2>
+            <h3 class="text-sm sm:text-lg">Diploma in Computer Engineering</h3>
+            <h3 class="text-sm sm:text-lg">
+              B & B Institute of Technology, Gujarat Technological University
+              (GTU)
+            </h3>
+            <h3 class="text-sm sm:text-lg">CGPA: 9.81/10.0</h3>
+          </div>
+          <div class="mt-4 ml-2">
+            <h2 class="font-bold text-xl">2020-2023</h2>
+            <h3 class="text-sm sm:text-lg">
+              BTech in Computer Science & Engineering
+            </h3>
+            <h3 class="text-sm sm:text-lg">
+              Institute of Technology, Nirma University
+            </h3>
+          </div>
+        </div>
+        <!-- Projects -->
+        <div class="grid-rows-2">
+          <h2 class="pt-4 text-center font-bold text-3xl mb-2">Projects</h2>
+          <h3 class="font-serif text-center mb-4 text-xl">I've Worked On</h3>
+          <div class="my-8 ml-2">
+            <h2 class="font-bold sm:text-xl">Donation Management System</h2>
+            <h3 class="text-sm sm:text-lg">
+              Web Application using technologies like PHP, JavaScript, HTML,
+              CSS, Bootstrap, MySql.
+            </h3>
+            <h4 class="mt-4 mb-10 text-center space-x-5 sm:space-x-10">
+              <a
+                class="rounded-full border-white border-2 px-5 py-1 hover:text-gray-200 hover:bg-cyan-900"
+                href="https://scratchiest-pulse.000webhostapp.com/"
+                >Visit Site</a
+              >
+              <a
+                class="rounded-full border-white border-2 px-5 py-1 hover:text-gray-200 hover:bg-cyan-900"
+                href="https://github.com/jaimik64/pro_donate"
+                >Git Repo</a
+              >
+            </h4>
+          </div>
+          <div class="my-8 ml-2">
+            <h2 class="font-bold sm:text-xl">
+              Restaurant & Banquet Management System
+            </h2>
+            <h3 class="text-sm sm:text-lg">
+              Web Application using technologies like PHP, JavaScript, HTML,
+              CSS, Bootstrap, MySql.
+            </h3>
+            <h4 class="text-center mt-4 mb-10 space-x-5">
+              <a
+                href="https://github.com/jaimik64/Restaurant-Management-System"
+                class="rounded-full border-white border-2 px-5 py-1 hover:text-gray-200 hover:bg-cyan-900"
+                >Git Repo</a
+              >
+            </h4>
+          </div>
+          <div class="my-8 ml-2">
+            <h2 class="font-bold sm:text-xl">Tic-Tac-Toe</h2>
+            <h3 class="text-sm sm:text-lg">
+              Web Application using technologies like React, JavaScript, CSS.
+            </h3>
+            <h4 class="mt-4 mb-10 text-center space-x-5">
+              <a
+                href="https://jaimik64.github.io/react-tic-tac-toe/"
+                class="rounded-full border-white border-2 px-5 py-1 hover:text-gray-200 hover:bg-cyan-900"
+                >Visit Site</a
+              >
+              <a
+                href="https://github.com/jaimik64/react-tic-tac-toe"
+                class="rounded-full border-white border-2 px-5 py-1 hover:text-gray-200 hover:bg-cyan-900"
+                >Git Repo</a
+              >
+            </h4>
+          </div>
+          <div class="my-8 ml-2">
+            <h2 class="font-bold sm:text-xl">Restaurant Billing System</h2>
+            <h3 class="text-sm sm:text-lg">Billing System Using C.</h3>
+            <h4 class="mt-4 mb-10 text-center space-x-5">
+              <a
+                class="rounded-full border-white border-2 px-5 py-1 hover:text-gray-200 hover:bg-cyan-900"
+                href="https://www.onlinegdb.com/k1fiSiPjY"
+                >Online GDB</a
+              >
+              <a
+                class="rounded-full border-white border-2 px-5 py-1 hover:text-gray-200 hover:bg-cyan-900"
+                href="https://github.com/jaimik64/BTech-Projects/blob/main/Restaurant_billing_system.c"
+                >Git Repo</a
+              >
+            </h4>
+          </div>
+        </div>
+      </div>
+      <!-- Contact -->
+      <div id="contact" class="my-8 text-center space-y-1">
+        <h2 class="font-serif text-2xl">I'd Love to hear from you.</h2>
+
+        <h3 class="grid grid-rows-1 my-5">
+          <a href="mailto:jaimikchauhan10@gmail.com"
+            >jaimikchauhan10@gmail.com</a
+          >
+
+          <a href="tel:+918401563076">+91 84015 63076</a>
+        </h3>
+        <h3 class="flex justify-center space-x-7 py-5">
+          <a href="https://www.linkedin.com/in/jaimikchauhan64/"
+            ><img src="img/icons8-linkedin-30.png" class="h-6" alt="linkedin"
+          /></a>
+          <a href="https://twitter.com/jaaimik"
+            ><img
+              src="img/2021 Twitter logo - black.png"
+              class="h-6"
+              alt="twitter"
+          /></a>
+          <a href="https://github.com/jaimik64"
+            ><img src="img/GitHub-Mark-32px.png" class="h-6" alt="github"
+          /></a>
+          <a href="https://wa.me/+918401563076"
+            ><img src="img/whatsapp.png" class="h-6" alt="github"
+          /></a>
+        </h3>
+        <a
+          href="res/20BCE503_Jaimik Chauhan.pdf"
+          class="border-gray-700 border-2 px-10 py-2 bg-blue-500 hover:border-white hover:bg-blue-800 hover:text-gray-700"
+        >
+          Download Resume</a
+        >
+      </div>
+    </main>
+    <footer class="text-center grid bg-black text-white py-8 mt-4">
+      Copyright &copy; 2022 Jaimik Chauhan.
+      <p>All rights reserved.</p>
+    </footer>
+    <script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
+  </body>
+</html>

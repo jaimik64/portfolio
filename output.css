@@ -1270,6 +1270,10 @@ input[type=file]::file-selector-button:hover {
   border-radius: 0.75rem;
 }
 
+.border-\[6px\] {
+  border-width: 6px;
+}
+
 .border-2 {
   border-width: 2px;
 }
@@ -1286,10 +1290,6 @@ input[type=file]::file-selector-button:hover {
   border-width: 4px;
 }
 
-.border-\[6px\] {
-  border-width: 6px;
-}
-
 .border-b {
   border-bottom-width: 1px;
 }
@@ -1304,6 +1304,11 @@ input[type=file]::file-selector-button:hover {
   border-color: rgb(243 244 246 / var(--tw-border-opacity));
 }
 
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
 .border-gray-700 {
   --tw-border-opacity: 1;
   border-color: rgb(55 65 81 / var(--tw-border-opacity));
@@ -1312,11 +1317,6 @@ input[type=file]::file-selector-button:hover {
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
-.border-black {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
 .bg-white {
